@@ -1,14 +1,10 @@
 package com.qa.automation;
-
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-
-
 import java.util.concurrent.TimeUnit;
 
 public class LaunchBrowser {
-
     public static void main(String[] args)
     {
         WebDriver driver;
@@ -20,7 +16,6 @@ public class LaunchBrowser {
         String s=driver.getTitle();
         System.out.println(s);
         driver.quit();
-
 
     }
 }
