@@ -17,6 +17,7 @@ public class LaunchBrowser {
         String s=driver.getTitle();
         System.out.println(s);
         System.out.println(s);
+        System.out.println(s);
         driver.quit();
 
     }
