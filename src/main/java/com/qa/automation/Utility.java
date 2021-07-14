@@ -3,6 +3,7 @@ package com.qa.automation;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.remote.BrowserType;
+import org.openqa.selenium.support.PageFactory;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -20,6 +21,9 @@ public class Utility {
         prop.load(fis);
         String s = prop.getProperty("Browser");
         System.out.println(s);
+
+        PageFactory.initElements();
+        @Test
 
     }
 
