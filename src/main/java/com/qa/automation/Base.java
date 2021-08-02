@@ -34,7 +34,7 @@ public class Base {
         driver.get(urls);
     }
 
-    public void closedbrowser()
+    public void closebrowser()
     {
         driver.quit();
     }
